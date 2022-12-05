@@ -1,0 +1,28 @@
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Data\bin\Debug\net6.0\Subscriber.Data.deps.json
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Data\bin\Debug\net6.0\Subscriber.Data.runtimeconfig.json
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Data\bin\Debug\net6.0\Subscriber.Data.dll
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Data\bin\Debug\net6.0\Subscriber.Data.pdb
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Data\obj\Debug\net6.0\Subscriber.Data.csproj.AssemblyReference.cache
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Data\obj\Debug\net6.0\Subscriber.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Data\obj\Debug\net6.0\Subscriber.Data.AssemblyInfoInputs.cache
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Data\obj\Debug\net6.0\Subscriber.Data.AssemblyInfo.cs
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Data\obj\Debug\net6.0\Subscriber.Data.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Data\obj\Debug\net6.0\Subscriber.Data.dll
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Data\obj\Debug\net6.0\refint\Subscriber.Data.dll
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Data\obj\Debug\net6.0\Subscriber.Data.pdb
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Data\obj\Debug\net6.0\Subscriber.Data.genruntimeconfig.cache
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Data\obj\Debug\net6.0\ref\Subscriber.Data.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Data\bin\Debug\net6.0\Subscriber.Data.deps.json
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Data\bin\Debug\net6.0\Subscriber.Data.runtimeconfig.json
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Data\bin\Debug\net6.0\Subscriber.Data.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Data\bin\Debug\net6.0\Subscriber.Data.pdb
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Data\obj\Debug\net6.0\Subscriber.Data.csproj.AssemblyReference.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Data\obj\Debug\net6.0\Subscriber.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Data\obj\Debug\net6.0\Subscriber.Data.AssemblyInfoInputs.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Data\obj\Debug\net6.0\Subscriber.Data.AssemblyInfo.cs
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Data\obj\Debug\net6.0\Subscriber.Data.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Data\obj\Debug\net6.0\Subscriber.Data.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Data\obj\Debug\net6.0\refint\Subscriber.Data.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Data\obj\Debug\net6.0\Subscriber.Data.pdb
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Data\obj\Debug\net6.0\Subscriber.Data.genruntimeconfig.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Data\obj\Debug\net6.0\ref\Subscriber.Data.dll

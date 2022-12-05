@@ -1,0 +1,14 @@
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.data\bin\Debug\net6.0\Measure.Data.deps.json
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.data\bin\Debug\net6.0\Measure.Data.runtimeconfig.json
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.data\bin\Debug\net6.0\Measure.Data.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.data\bin\Debug\net6.0\Measure.Data.pdb
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.data\obj\Debug\net6.0\Measure.Data.csproj.AssemblyReference.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.data\obj\Debug\net6.0\Measure.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.data\obj\Debug\net6.0\Measure.Data.AssemblyInfoInputs.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.data\obj\Debug\net6.0\Measure.Data.AssemblyInfo.cs
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.data\obj\Debug\net6.0\Measure.Data.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.data\obj\Debug\net6.0\Measure.Data.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.data\obj\Debug\net6.0\refint\Measure.Data.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.data\obj\Debug\net6.0\Measure.Data.pdb
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.data\obj\Debug\net6.0\Measure.Data.genruntimeconfig.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.data\obj\Debug\net6.0\ref\Measure.Data.dll

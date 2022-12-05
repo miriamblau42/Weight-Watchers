@@ -1,0 +1,33 @@
+﻿2022-12-03 22:08:24.006 INFO  Logging to 'C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.NSB\bin\Debug\net6.0\' with level Info
+2022-12-03 22:08:31.701 INFO  Selected active license from C:\Users\1\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2022-12-07
+2022-12-03 22:08:31.794 WARN  Development license expiring in 4 days. If you’re still in development, renew your license for free at https://particular.net/license/nservicebus?v=8.0.0&t=1&p=windows&f=6 otherwise email contact@particular.net
+2022-12-03 22:08:43.273 INFO  Executing 'C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.NSB\bin\Debug\net6.0\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2022-12-03 22:08:58.764 INFO  UpdateStatus message received.
+2022-12-03 23:45:41.496 ERROR Error cleaning outbox data
+System.Exception: Failed to ExecuteNonQuery. CommandText:
+
+delete top (@BatchSize) from [dbo].[Measure_NSB_OutboxData]
+where Dispatched = 'true' and
+      DispatchedAt < @DispatchedBefore
+ ---> System.Data.SqlClient.SqlException (0x80131904): There is insufficient system memory in resource pool 'internal' to run this query.
+Cannot continue the execution because the session is in the kill state.
+A severe error occurred on the current command.  The results, if any, should be discarded.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Extensions.ExecuteNonQueryEx(DbCommand command, CancellationToken cancellationToken) in /_/src/SqlPersistence/Extensions.cs:line 113
+ClientConnectionId:cb8979b6-fca8-4869-8ea8-0caf2e45ec92
+Error Number:701,State:89,Class:17
+   --- End of inner exception stack trace ---
+   at Extensions.ExecuteNonQueryEx(DbCommand command, CancellationToken cancellationToken) in /_/src/SqlPersistence/Extensions.cs:line 118
+   at OutboxPersister.RemoveEntriesOlderThan(DateTime dateTime, CancellationToken cancellationToken) in /_/src/SqlPersistence/Outbox/OutboxPersister.cs:line 141
+   at OutboxCleaner.<>c__DisplayClass1_0.<<OnStart>b__0>d.MoveNext() in /_/src/SqlPersistence/Outbox/OutboxCleaner.cs:line 26
+--- End of stack trace from previous location ---
+   at AsyncTimer.<>c__DisplayClass0_0.<<Start>b__0>d.MoveNext() in /_/src/SqlPersistence/Outbox/AsyncTimer.cs:line 22

@@ -1,0 +1,12 @@
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Messages\bin\Debug\net6.0\Measure.Messages.deps.json
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Messages\bin\Debug\net6.0\Measure.Messages.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Messages\bin\Debug\net6.0\Measure.Messages.pdb
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Messages\obj\Debug\net6.0\Measure.Messages.csproj.AssemblyReference.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Messages\obj\Debug\net6.0\Measure.Messages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Messages\obj\Debug\net6.0\Measure.Messages.AssemblyInfoInputs.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Messages\obj\Debug\net6.0\Measure.Messages.AssemblyInfo.cs
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Messages\obj\Debug\net6.0\Measure.Messages.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Messages\obj\Debug\net6.0\Measure.Messages.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Messages\obj\Debug\net6.0\refint\Measure.Messages.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Messages\obj\Debug\net6.0\Measure.Messages.pdb
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Messages\obj\Debug\net6.0\ref\Measure.Messages.dll

@@ -1,0 +1,30 @@
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Services\bin\Debug\net6.0\Subscriber.Services.deps.json
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Services\bin\Debug\net6.0\Subscriber.Services.dll
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Services\bin\Debug\net6.0\Subscriber.Services.pdb
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Services\bin\Debug\net6.0\Subscriber.Data.dll
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Services\bin\Debug\net6.0\Subscriber.Data.pdb
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Services\obj\Debug\net6.0\Subscriber.Services.csproj.AssemblyReference.cache
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Services\obj\Debug\net6.0\Subscriber.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Services\obj\Debug\net6.0\Subscriber.Services.AssemblyInfoInputs.cache
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Services\obj\Debug\net6.0\Subscriber.Services.AssemblyInfo.cs
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Services\obj\Debug\net6.0\Subscriber.Services.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Services\obj\Debug\net6.0\Subscriber.Services.csproj.CopyComplete
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Services\obj\Debug\net6.0\Subscriber.Services.dll
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Services\obj\Debug\net6.0\refint\Subscriber.Services.dll
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Services\obj\Debug\net6.0\Subscriber.Services.pdb
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Subscriber.Services\obj\Debug\net6.0\ref\Subscriber.Services.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Services\bin\Debug\net6.0\Subscriber.Services.deps.json
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Services\bin\Debug\net6.0\Subscriber.Services.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Services\bin\Debug\net6.0\Subscriber.Services.pdb
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Services\bin\Debug\net6.0\Subscriber.Data.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Services\bin\Debug\net6.0\Subscriber.Data.pdb
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Services\obj\Debug\net6.0\Subscriber.Services.csproj.AssemblyReference.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Services\obj\Debug\net6.0\Subscriber.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Services\obj\Debug\net6.0\Subscriber.Services.AssemblyInfoInputs.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Services\obj\Debug\net6.0\Subscriber.Services.AssemblyInfo.cs
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Services\obj\Debug\net6.0\Subscriber.Services.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Services\obj\Debug\net6.0\Subscriber.Services.csproj.CopyComplete
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Services\obj\Debug\net6.0\Subscriber.Services.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Services\obj\Debug\net6.0\refint\Subscriber.Services.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Services\obj\Debug\net6.0\Subscriber.Services.pdb
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.Services\obj\Debug\net6.0\ref\Subscriber.Services.dll

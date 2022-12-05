@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "e5+sKqGHlcD4y46aCynOJolGIAIA3d9wyIiHEpSwxvM=",
+  "Source": "Subscriber.WebAPI",
+  "BasePath": "_content/Subscriber.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\1\\Documents\\פרויקט גמר מהט\\WeightWatches\\Tracking.WebAPI\\Tracking.WebAPI.csproj",
+      "Version": 2,
+      "Source": "Tracking.WebAPI",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

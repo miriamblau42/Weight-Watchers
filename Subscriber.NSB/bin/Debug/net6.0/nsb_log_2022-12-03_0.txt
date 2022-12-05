@@ -1,0 +1,7 @@
+﻿2022-12-03 22:08:39.394 INFO  Logging to 'C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.NSB\bin\Debug\net6.0\' with level Info
+2022-12-03 22:08:43.437 INFO  Selected active license from C:\Users\1\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2022-12-07
+2022-12-03 22:08:44.081 WARN  Development license expiring in 4 days. If you’re still in development, renew your license for free at https://particular.net/license/nservicebus?v=7.7.4&t=1&p=windows otherwise email contact@particular.net
+2022-12-03 22:09:13.698 INFO  Executing 'C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.NSB\bin\Debug\net6.0\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2022-12-03 22:09:15.790 INFO  Executing saga creation scripts:
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Subscriber.NSB\bin\Debug\net6.0\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\SubscriberPolicy_Create.sql

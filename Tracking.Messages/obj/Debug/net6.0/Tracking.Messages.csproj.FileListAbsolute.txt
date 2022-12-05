@@ -1,0 +1,24 @@
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Tracking.Messages\bin\Debug\net6.0\Tracking.Messages.deps.json
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Tracking.Messages\bin\Debug\net6.0\Tracking.Messages.dll
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Tracking.Messages\bin\Debug\net6.0\Tracking.Messages.pdb
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Tracking.Messages\obj\Debug\net6.0\Tracking.Messages.csproj.AssemblyReference.cache
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Tracking.Messages\obj\Debug\net6.0\Tracking.Messages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Tracking.Messages\obj\Debug\net6.0\Tracking.Messages.AssemblyInfoInputs.cache
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Tracking.Messages\obj\Debug\net6.0\Tracking.Messages.AssemblyInfo.cs
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Tracking.Messages\obj\Debug\net6.0\Tracking.Messages.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Tracking.Messages\obj\Debug\net6.0\Tracking.Messages.dll
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Tracking.Messages\obj\Debug\net6.0\refint\Tracking.Messages.dll
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Tracking.Messages\obj\Debug\net6.0\Tracking.Messages.pdb
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Tracking.Messages\obj\Debug\net6.0\ref\Tracking.Messages.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Tracking.Messages\bin\Debug\net6.0\Tracking.Messages.deps.json
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Tracking.Messages\bin\Debug\net6.0\Tracking.Messages.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Tracking.Messages\bin\Debug\net6.0\Tracking.Messages.pdb
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Tracking.Messages\obj\Debug\net6.0\Tracking.Messages.csproj.AssemblyReference.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Tracking.Messages\obj\Debug\net6.0\Tracking.Messages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Tracking.Messages\obj\Debug\net6.0\Tracking.Messages.AssemblyInfoInputs.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Tracking.Messages\obj\Debug\net6.0\Tracking.Messages.AssemblyInfo.cs
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Tracking.Messages\obj\Debug\net6.0\Tracking.Messages.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Tracking.Messages\obj\Debug\net6.0\Tracking.Messages.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Tracking.Messages\obj\Debug\net6.0\refint\Tracking.Messages.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Tracking.Messages\obj\Debug\net6.0\Tracking.Messages.pdb
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Tracking.Messages\obj\Debug\net6.0\ref\Tracking.Messages.dll

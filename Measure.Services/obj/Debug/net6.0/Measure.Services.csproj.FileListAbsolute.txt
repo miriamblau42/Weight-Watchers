@@ -1,0 +1,30 @@
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Measure.Services\bin\Debug\net6.0\Measure.Services.deps.json
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Measure.Services\bin\Debug\net6.0\Measure.Services.dll
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Measure.Services\bin\Debug\net6.0\Measure.Services.pdb
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Measure.Services\obj\Debug\net6.0\Measure.Services.csproj.AssemblyReference.cache
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Measure.Services\obj\Debug\net6.0\Measure.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Measure.Services\obj\Debug\net6.0\Measure.Services.AssemblyInfoInputs.cache
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Measure.Services\obj\Debug\net6.0\Measure.Services.AssemblyInfo.cs
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Measure.Services\obj\Debug\net6.0\Measure.Services.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Measure.Services\obj\Debug\net6.0\Measure.Services.dll
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Measure.Services\obj\Debug\net6.0\refint\Measure.Services.dll
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Measure.Services\obj\Debug\net6.0\Measure.Services.pdb
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Measure.Services\obj\Debug\net6.0\ref\Measure.Services.dll
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Measure.Services\bin\Debug\net6.0\Measure.Data.dll
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Measure.Services\bin\Debug\net6.0\Measure.Data.pdb
+C:\Users\1\Documents\CrossRiverDemoFinal\WeightWatches\Measure.Services\obj\Debug\net6.0\Measure.Services.csproj.CopyComplete
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Services\bin\Debug\net6.0\Measure.Services.deps.json
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Services\bin\Debug\net6.0\Measure.Services.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Services\bin\Debug\net6.0\Measure.Services.pdb
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Services\bin\Debug\net6.0\Measure.Data.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Services\bin\Debug\net6.0\Measure.Data.pdb
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Services\obj\Debug\net6.0\Measure.Services.csproj.AssemblyReference.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Services\obj\Debug\net6.0\Measure.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Services\obj\Debug\net6.0\Measure.Services.AssemblyInfoInputs.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Services\obj\Debug\net6.0\Measure.Services.AssemblyInfo.cs
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Services\obj\Debug\net6.0\Measure.Services.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Services\obj\Debug\net6.0\Measure.Services.csproj.CopyComplete
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Services\obj\Debug\net6.0\Measure.Services.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Services\obj\Debug\net6.0\refint\Measure.Services.dll
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Services\obj\Debug\net6.0\Measure.Services.pdb
+C:\Users\1\Documents\פרויקט גמר מהט\WeightWatches\Measure.Services\obj\Debug\net6.0\ref\Measure.Services.dll
