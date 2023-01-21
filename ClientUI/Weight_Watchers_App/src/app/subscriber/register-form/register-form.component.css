@@ -1,0 +1,9 @@
+small{
+    color: var(--bs-link-color);
+    text-decoration: underline;
+}
+small:hover{
+    text-decoration: none;
+    opacity: 50%;
+    cursor: pointer;
+}

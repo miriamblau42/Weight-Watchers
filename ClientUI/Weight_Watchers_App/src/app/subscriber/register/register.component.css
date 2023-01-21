@@ -1,0 +1,22 @@
+.normal-width{
+    width: 34%;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+h1{
+    margin: auto;
+    padding-left: 10px;
+    background-color: gainsboro;
+    line-height: 200%;
+    color: #6f94cb;
+}
+
+.form-group, .submit {
+    margin-top: 20px;
+}
+
+.validation-error{
+    color: rgb(186, 14, 14);
+} 

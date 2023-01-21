@@ -1,0 +1,95 @@
+<h1>Register</h1>
+
+<form
+  class="normal-width needs-validation"
+  [formGroup]="RegisterForm"
+  (ngSubmit)="onFormSubmit()"
+  novalidate
+  *ngIf="showForm"
+>
+  <div class="form-group">
+    <label for="email">email</label>
+    <input
+      type="email"
+      class="form-control"
+      id="email"
+      placeholder="email"
+      formControlName="email"
+    />
+  </div>
+  <small class="validation-error">{{ getError("email") }}</small>
+
+  <div class="form-group">
+    <label for="password">password</label>
+    <input
+      type="password"
+      class="form-control"
+      id="password"
+      placeholder="password"
+      formControlName="password"
+    />
+  </div>
+  <small class="validation-error">{{ getError("password") }}</small>
+
+  <div class="form-group">
+    <label for="firstName">firstName</label>
+    <input
+      type="text"
+      class="form-control"
+      id="firstName"
+      placeholder="firstName"
+      formControlName="firstName"
+    />
+  </div>
+  <small class="validation-error">{{ getError("firstName") }}</small>
+
+  <div class="form-group">
+    <label for="lastName">lastName</label>
+    <input
+      type="text"
+      class="form-control"
+      id="lastName"
+      placeholder="lastName"
+      formControlName="lastName"
+    />
+  </div>
+  <small class="validation-error">{{ getError("lastName") }}</small>
+
+  <div class="form-group">
+    <label for="height">height</label>
+    <input
+      type="text"
+      class="form-control"
+      id="height"
+      placeholder="height"
+      formControlName="height"
+    />
+  </div>
+  <small class="validation-error">{{ getError("height") }}</small>
+
+  <br />
+  <small class="form-text text-muted"
+    >We'll never share your information.</small
+  >
+  <br />
+  <button
+    type="submit"
+    class="btn btn-primary submit"
+    [disabled]="
+      RegisterForm.status == 'INVALID' || RegisterForm.hasError('height')
+    "
+  >
+    Submit
+  </button>
+</form>
+
+<div class="normal-width" *ngIf="!showForm">
+  <div class="alert alert-success alert-dismissible fade show">
+    <strong>Success!</strong> You have been registered successfully.
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+  </div>
+  <br /><br />
+  <button type="button" class="btn btn-light">
+    <a href="#">Back to Home page.</a>
+  </button>
+</div>

@@ -1,0 +1,20 @@
+.center{
+    margin: auto;
+}
+
+.container{
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.small-link{
+    color: var(--bs-link-color);
+    text-decoration: underline;
+}
+
+.small-link:hover{
+    text-decoration: none;
+    opacity: 50%;
+    cursor: pointer;
+}

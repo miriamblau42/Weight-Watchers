@@ -1,0 +1,9 @@
+<div *ngIf="!authorized">
+  <app-login *ngIf="!register"></app-login>
+  <registerForm *ngIf="register"></registerForm>
+</div>
+
+<div *ngIf="authorized">
+  <app-nav-bar></app-nav-bar>
+  <router-outlet></router-outlet>
+</div>

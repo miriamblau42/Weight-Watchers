@@ -1,0 +1,54 @@
+<div class="container">
+  <div class="card m-3">
+    <h5 class="card-header">Report weight</h5>
+    <div class="card-body col-6 center">
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">⏲</span>
+        </div>
+        <input
+          type="number"
+          class="form-control"
+          placeholder="0.0 KG"
+          aria-label="weight"
+          aria-describedby="basic-addon1"
+          [(ngModel)]="weight"
+        />
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">📝</span>
+        </div>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="comment"
+          aria-label="comment"
+          aria-describedby="basic-addon1"
+          [(ngModel)]="comment"
+        />
+      </div>
+    </div>
+    <div class="text-center">
+      <button class="btn btn-primary mr-1" (click)="ReportMeasure()">
+        Report
+      </button>
+      <br />
+      <a (click)="goToTrackingTable()">
+        <small class="small-link">To track your proccess click here.</small>
+      </a>
+      <br />
+    </div>
+    <br />
+  </div>
+  <div class="alert alert-danger" *ngIf="errors">
+    <strong>Error!</strong> {{ errorMessage }}
+  </div>
+</div>
+<div class="text-center">
+  <p class="lead" *ngIf="loading">Loading...</p>
+</div>
+
+<ngx-spinner size="medium" [type]="typeSelected"></ngx-spinner>
+
+<app-loading></app-loading>
