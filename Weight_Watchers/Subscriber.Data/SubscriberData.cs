@@ -8,7 +8,7 @@ public class SubscriberData : ISubscriberData
 {
     private IDbContextFactory<SubscriberContext> _factory;
 
-    public SubscriberData( IDbContextFactory<SubscriberContext> factory)
+    public SubscriberData(IDbContextFactory<SubscriberContext> factory)
     {
         _factory = factory ?? throw new ArgumentNullException(nameof(factory));
 
@@ -22,9 +22,9 @@ public class SubscriberData : ISubscriberData
 
             return await db.Subscribers.AnyAsync(s => s.Email == email);
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
-            throw new Exception("Server error when trying to read data from db",ex);
+            throw new Exception("Server error when trying to read data from db", ex);
         }
     }
     public async Task AddNewSubscriber(Entities.Subscriber newSubscriber)
@@ -32,12 +32,14 @@ public class SubscriberData : ISubscriberData
         try
         {
             using var db = _factory.CreateDbContext();
-             await db.Subscribers.AddAsync(newSubscriber);
-             db.SaveChanges();
+            var aa = db.Subscribers.ToList();
+            db.Database.SetCommandTimeout(6000);
+            await db.Subscribers.AddAsync(newSubscriber);
+            db.SaveChanges();
         }
         catch (Exception ex)
         {
-            throw new Exception("Server error when trying to read data from db",ex);
+            throw new Exception("Server error when trying to read data from db", ex);
         }
     }
     public async Task<int> Login(string email, string password)
@@ -50,14 +52,14 @@ public class SubscriberData : ISubscriberData
             s.Email.Equals(email) && s.Password.Equals(password));
             if (subscriberFound == null) return -1;
             cardFound = await db.Cards.FirstOrDefaultAsync(c => c.SubscriberId == subscriberFound.Id);
-            
-            if(cardFound == null) return -1;
+
+            if (cardFound == null) return -1;
             return cardFound.Id;
 
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
-            throw new Exception("Server error when trying to read data from db",ex);
+            throw new Exception("Server error when trying to read data from db", ex);
         }
     }
 
@@ -71,7 +73,7 @@ public class SubscriberData : ISubscriberData
             await db.SaveChangesAsync();
             return true;
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
             throw new Exception("Server error when trying to read data from db", ex);
         }
@@ -87,7 +89,7 @@ public class SubscriberData : ISubscriberData
         }
         catch (Exception ex)
         {
-            throw new Exception("Server error when trying to read data from db",ex);
+            throw new Exception("Server error when trying to read data from db", ex);
         }
     }
 
@@ -100,7 +102,7 @@ public class SubscriberData : ISubscriberData
         }
         catch (Exception ex)
         {
-            throw new Exception("Server error when trying to read data from db",ex);
+            throw new Exception("Server error when trying to read data from db", ex);
         }
     }
 
@@ -110,22 +112,23 @@ public class SubscriberData : ISubscriberData
         {
             using var db = _factory.CreateDbContext();
             var card = await db.Cards.FirstOrDefaultAsync(c => c.Id == cardId);
-                if (card != null)
-                {
-                    card.Weight = weight;
-                    card.BMI = calcBMI(card.Height, card.Weight);
-                    db.SaveChanges();
-                }
+            if (card != null)
+            {
+                card.Weight = weight;
+                card.BMI = calcBMI(card.Height, card.Weight);
+                db.SaveChanges();
+            }
             return card;
         }
         catch (Exception ex)
         {
-            throw new Exception("Server error when trying to access data in db",ex);
+            throw new Exception("Server error when trying to access data in db", ex);
         }
     }
 
-    private float calcBMI(float hight, float weight)
+    private float calcBMI(float height, float weight)
     {
-        return weight / (hight * hight);
+        height /= 100;
+        return weight / (height * height);
     }
 }

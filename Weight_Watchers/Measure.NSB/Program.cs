@@ -1,13 +1,14 @@
 ﻿
 using Measure.Data;
 using Measure.Data.Entities;
+using Measure.Messages.Commands;
 using Measure.Services;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using NServiceBus;
 using NServiceBus.Logging;
-
+using NServiceBus.Transport;
 
 class Program
 {
@@ -19,7 +20,7 @@ class Program
 
         var endpointConfiguration = new EndpointConfiguration("Measure");
 
-        var databaseConnection = "Data Source=localhost\\sqlexpress; Initial Catalog=Subscriber; Integrated Security=True";        var rabbitMQConnection = @"host=localhost";
+        var databaseConnection = "Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog=Subscriber; Integrated Security=True";        var rabbitMQConnection = @"host=localhost";
 
         var containerSettings = endpointConfiguration.UseContainer(new DefaultServiceProviderFactory());
         containerSettings.ServiceCollection.AddScoped<IMeasureService, MeasureService>();
@@ -35,7 +36,6 @@ class Program
         var transport = endpointConfiguration.UseTransport<RabbitMQTransport>();
         transport.ConnectionString(rabbitMQConnection);
         transport.UseConventionalRoutingTopology(QueueType.Quorum);
-
         var persistence = endpointConfiguration.UsePersistence<SqlPersistence>();
         persistence.ConnectionBuilder(
             connectionBuilder: () =>

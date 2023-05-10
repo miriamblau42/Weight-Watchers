@@ -9,7 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<ITrackingData, TrackingData>();
 builder.Services.AddScoped<ITrackingService, TrackingService>();
 builder.Services.AddAutoMapper(typeof(Program));
-builder.Services.AddDbContextFactory<TrackingContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("TrackingDatabase")));
+builder.Services.AddDbContextFactory<TrackingContext>(opt => opt.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog=Tracking; Integrated Security=True"));
+
 
 builder.Services.AddControllers();
 builder.Services.AddCors(options =>

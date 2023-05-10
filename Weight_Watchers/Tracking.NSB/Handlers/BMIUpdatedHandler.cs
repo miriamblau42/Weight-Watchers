@@ -1,12 +1,12 @@
 ﻿using NServiceBus;
-using Subscriber.Messages.Events;
-using Tracking.Messages.Events;
+using Subscriber.Messages.Commands;
+using Tracking.Messages.Commands;
 using Tracking.Services;
 using Tracking.Services.Models;
 
 namespace Tracking.NSB.Handlers
 {
-    internal class BMIUpdatedHandler : IHandleMessages<BMIupdated>
+    public class BMIUpdatedHandler : IHandleMessages<BMIupdated>
     {
         private readonly ITrackingService _trackingService;
 
@@ -38,7 +38,9 @@ namespace Tracking.NSB.Handlers
             {
                 trackAdded.Succeeded = false;
             }
-            await context.Publish(trackAdded);
+            var options = new SendOptions();
+            options.SetDestination("Measure");
+            await context.Send(trackAdded,options);
             Console.WriteLine($"Message 'BMIupdated' with Measure: {message.MeasureId} received at endpoint");
         }
     }

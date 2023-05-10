@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<ISubscriberData, SubscriberData>();
 builder.Services.AddScoped<ISubscriberService, SubscriberService>();
 builder.Services.AddAutoMapper(typeof(Program));
-builder.Services.AddDbContextFactory<SubscriberContext>(opt => opt.UseSqlServer("Data Source=localhost\\sqlexpress; Initial Catalog=Subscriber; Integrated Security=True"));
+builder.Services.AddDbContextFactory<SubscriberContext>(opt => opt.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog=Subscriber; Integrated Security=True; Connect Timeout = 6000; "));
 
 builder.Services.AddControllers();
 builder.Services.AddCors(options =>

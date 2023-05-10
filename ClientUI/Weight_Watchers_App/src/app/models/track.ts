@@ -4,5 +4,5 @@ export interface Track {
   weight: number;
   trend?: string;
   comment?: string;
-  BMI: number;
+  bmi: number;
 }

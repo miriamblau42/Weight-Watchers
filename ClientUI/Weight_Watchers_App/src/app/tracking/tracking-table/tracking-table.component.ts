@@ -27,7 +27,6 @@ export class TrackingTableComponent {
     'trend',
     'comment',
     'BMI',
-    'id',
   ];
 
   dataSource!: MatTableDataSource<Track>;

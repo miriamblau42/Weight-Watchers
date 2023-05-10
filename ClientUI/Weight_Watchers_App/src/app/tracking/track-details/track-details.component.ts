@@ -14,7 +14,7 @@ export class TrackDetailsComponent implements OnInit {
   track?: Track = {
     id: 0,
     weight: Number(this.params.get('weight')),
-    BMI: Number(this.params.get('BMI')),
+    bmi: Number(this.params.get('BMI')),
     comment: this.params.get('comment')?.toString(),
     date: this.params.get('date')?.toString(),
     trend: this.params.get('trend')?.toString(),
@@ -30,7 +30,7 @@ export class TrackDetailsComponent implements OnInit {
       this.track = {
         id: 0,
         weight: Number(this.params.get('weight')),
-        BMI: Number(this.params.get('BMI')),
+        bmi: Number(this.params.get('BMI')),
         comment: this.params.get('comment')?.toString(),
         date: this.params.get('date')?.toString(),
         trend: this.params.get('trend')?.toString(),
@@ -40,5 +40,6 @@ export class TrackDetailsComponent implements OnInit {
       for (const [key, value] of Object.entries(this.track)) {
         this.infoList.push([key, value]);
       }
+ 
   }
 }

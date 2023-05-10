@@ -1,8 +1,9 @@
-﻿using Measure.Messages.Events;
+﻿using Measure.Messages.Commands;
+using Measure.Messages.Events;
 using Measure.Services;
 using NServiceBus;
 using NServiceBus.Logging;
-using Tracking.Messages.Events;
+using Tracking.Messages.Commands;
 
 namespace Measure.NSB;
 
@@ -17,11 +18,21 @@ public class MeasurePolicy : Saga<MeasurePolicyData>, IAmStartedByMessages<Measu
         _measureService = measureService;
     }
 
-    public Task Handle(MeasureAdded message, IMessageHandlerContext context)
+    public async Task Handle(MeasureAdded message, IMessageHandlerContext context)
     {
         log.Info($"Received MeasureAdded, Measure = {message.MeasureId}");
         Data.IsMeasureAdded = true;
-        return SagaComplete(context);
+        var options = new SendOptions();
+        options.SetDestination("Subscriber");
+        await context.Send(new UpdateMeasure()
+        {
+            MeasureId = message.MeasureId,
+            CardId = message.CardId,
+            Date = message.Date,
+            Weight = message.Weight,
+            Comment = message.Comment,
+        }, options);
+        SagaComplete(context);
     }
 
     public Task Handle(TrackAdded message, IMessageHandlerContext context)

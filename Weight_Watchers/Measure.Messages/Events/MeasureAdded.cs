@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Measure.Messages.Events;
 
-public class MeasureAdded
+public class MeasureAdded :IEvent
 {
     public int MeasureId { get; set; }
     public int CardId { get; set; }

@@ -18,7 +18,7 @@ class Program
 
         var endpointConfiguration = new EndpointConfiguration("Tracking");
 
-        var databaseConnection = "Data Source=localhost\\sqlexpress; Initial Catalog=Tracking; Integrated Security=True";
+        var databaseConnection = "Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog=Tracking; Integrated Security=True";
         var rabbitMQConnection = @"host=localhost";
 
         var containerSettings = endpointConfiguration.UseContainer(new DefaultServiceProviderFactory());
