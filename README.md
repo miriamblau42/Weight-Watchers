@@ -2,7 +2,7 @@
 
 Hi!
 
-We're Leah Neueman & Esther Weller, 
+We're Miriam Blau & Temima Fogel, 
 students in CrossRiver's bootcamp,
 and this is our pre-final project.
 
